@@ -31,14 +31,14 @@ dependencies {
 //    testCompile 'junit:junit:4.12'
 }
 
-//项目引用的版本号，比如compile 'com.ansen.library:circleimage:1.0.1'中的1.0就是这里配置的。
-version = "1.0"
 // 定义两个链接，下面会用到。
 def siteUrl = 'https://github.com/ansen666/CircleImageView' // 项目主页。
 def gitUrl = 'https://github.com/ansen666/CircleImageView.git' // Git仓库的url。
 
-// 唯一包名，比如compile 'com.ansen.library:circleimage:1.0.1'中的com.ansen.library就是这里配置的。
+// 唯一包名，比如compile 'com.ansen.library:circleimage:1.0'中的com.ansen.library就是这里配置的。
 group = "com.ansen.library"
+//项目引用的版本号，比如compile 'com.ansen.library:circleimage:1.0.1'中的1.0就是这里配置的。
+version = "1.0.1"
 
 install {
     repositories.mavenInstaller {
