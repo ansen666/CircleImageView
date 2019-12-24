@@ -14,5 +14,6 @@ CircleImageView ciImage2= (CircleImageView) findViewById(R.id.ci_image2);
 ```
 
 效果图:
+
 ![效果图](https://github.com/ansen666/CircleImageView/blob/master/xiaoguotu.png?raw=true)
 
