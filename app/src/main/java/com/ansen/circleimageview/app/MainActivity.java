@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         CircleImageView ciImage2= (CircleImageView) findViewById(R.id.ci_image2);
-        ciImage2.setBorder(getResources().getColor(android.R.color.holo_red_dark),2);//设置边框
+        ciImage2.setBorder(getResources().getColor(android.R.color.holo_red_dark),5);//设置边框
     }
 }
